@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 10</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    
+</head>
+<body>
+
+<div class="container mt-5"> <!--Bootstrap container to center the content-->
+    
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script> <!--What we are using to access Bootstrap-->
+
+<table class="table table-dark"> <!--Table & we used a class for styling-->
+    <thead id="tHead">
+        <th>First</th>
+        <th>Last</th>
+        <th>Phone #</th>
+        <th>Email</th>
+    </thead>
+    <tbody id="tBody"> <!--where the data rows go-->
+
+    </tbody>
+</table>
+
+<form> <!--form-->
+    <div>
+        <label for="firstName" class="form-label">First Name</label>
+        <input type="text" class="form-control" id="firstName" /> <!-- id's that JavaScript will use to access the values-->
+    </div>
+    <div>
+        <label for="lastName" class="form-label">Last Name</label>
+        <input type="text" class="form-control" id="lastName" />
+    </div>
+    <div>
+        <label for="phoneNumber" class="form-label">Phone Number</label>
+        <input type="text" class="form-control" id="phoneNumber" />
+    </div>
+    <div>
+        <label for="emailAddress" class="form-label">Email</label>
+        <input type="text" class="form-control" id="emailAddress" />
+    </div>
+    <button type="submit" class="btn btn-dark" id="formSubmit">Submit</button>
+</form>
+
+<script src="./scripts.js"></script> <!--links to Javascript-->
+</div>
+</body>
+</html>
